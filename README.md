@@ -1,6 +1,4 @@
-# Aquí tienes un ejemplo de `README.md` para tu proyecto de OCR. Puedes ajustarlo según los detalles específicos de tu proyecto.
 
-```markdown
 # OCR Ticket Management System
 
 ## Descripción
