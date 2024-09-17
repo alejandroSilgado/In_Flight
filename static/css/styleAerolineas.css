@@ -1,0 +1,87 @@
+/* styleAerolineas.css */
+#uploadArea {
+  border: 2px dashed var(--text-light);
+  border-radius: 15px;
+  height: 300px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  background: var(--card-bg-light);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#uploadArea.dragover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--primary-color);
+}
+
+#uploadArea i {
+  color: var(--text-light);
+}
+
+#previousUploads .excel-card {
+  background: var(--card-bg-light);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+#previousUploads .excel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#previousUploads .excel-card .card-header {
+  padding: 1rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#previousUploads .excel-card .card-body {
+  padding: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+#editExcelModal .modal-content {
+  background: var(--card-bg-light);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#editExcelModal .modal-header,
+#editExcelModal .modal-footer {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+#excelEditor {
+  height: 400px;
+  overflow: auto;
+}
+
+/* Estilos para Handsontable */
+.handsontable {
+  font-size: 14px;
+}
+
+.handsontable .htCore th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.handsontable .htCore td {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+}
